@@ -1,0 +1,6 @@
+[submodule "CloSe"]
+	path = CloSe
+	url = https://github.com/anticdimi/CloSe
+[submodule "Human3Diffusion"]
+	path = Human3Diffusion
+	url = https://github.com/YuxuanSnow/Human3Diffusion

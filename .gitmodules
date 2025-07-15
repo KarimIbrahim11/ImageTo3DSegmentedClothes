@@ -4,3 +4,6 @@
 [submodule "Human3Diffusion"]
 	path = Human3Diffusion
 	url = https://github.com/YuxuanSnow/Human3Diffusion
+[submodule "NICP"]
+	path = NICP
+	url = https://github.com/riccardomarin/NICP

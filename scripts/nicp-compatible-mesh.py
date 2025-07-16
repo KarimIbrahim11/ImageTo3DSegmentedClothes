@@ -24,7 +24,7 @@ REMOVE_COLORS = False  # Set to False if you want to keep vertex colors
 
 
 # Load with Open3D
-mesh = o3d.io.read_triangle_mesh("/home/stud220/git/ImageTo3DSegmentedClothes/Human3Diffusion/output/05/tsdf-rgbd.ply")
+mesh = o3d.io.read_triangle_mesh("/home/stud220/git/ImageTo3DSegmentedClothes/Human3Diffusion/output/06/tsdf-rgbd.ply")
 
 if REMOVE_COLORS and len(mesh.vertex_colors) > 0:
     mesh.vertex_colors = o3d.utility.Vector3dVector(np.empty((0, 3), dtype=np.float64))
@@ -37,7 +37,7 @@ faces = np.asarray(mesh.triangles, dtype=np.int32)
 tmesh = trimesh.Trimesh(vertices=vertices, faces=faces, process=False)
 
 # Export with correct header
-tmesh.export("/home/stud220/git/ImageTo3DSegmentedClothes/Human3Diffusion/output/05/nicp-compatible-colored-tsdf-rgbd.ply", file_type='ply')
+tmesh.export("/home/stud220/git/ImageTo3DSegmentedClothes/output/nicp-compatible-colored-tsdf-rgbd.ply", file_type='ply')
 print("Converted mesh written with float32 vertices and int face indices.")
 
 

@@ -7,3 +7,6 @@
 [submodule "NICP"]
 	path = NICP
 	url = https://github.com/riccardomarin/NICP
+[submodule "smplx"]
+	path = smplx
+	url = https://github.com/vchoutas/smplx

@@ -1,1 +1,10 @@
-output/*
+output/backup_meshes/*
+output/3DGS_meshes/*
+output/Close-output/*
+output/gifs/*
+output/SMPL_meshes/*
+output/SMPLH_meshes/*
+inputs/images/*
+inputs/sample-images/*
+CloSe/lib/utils/smpl_fittin_two.py
+CloSe/lib/utils/smpl_fitting.py

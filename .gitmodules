@@ -1,12 +1,15 @@
 [submodule "CloSe"]
-	path = CloSe
-	url = https://github.com/anticdimi/CloSe
+	path = CloSe	
+	url = https://github.com/KarimIbrahim11/CloSe.git
+	branch = feature/image2garment
 [submodule "Human3Diffusion"]
 	path = Human3Diffusion
-	url = https://github.com/YuxuanSnow/Human3Diffusion
+	url = https://github.com/KarimIbrahim11/Human3Diffusion.git
+	branch = feature/image2garment
 [submodule "NICP"]
 	path = NICP
-	url = https://github.com/riccardomarin/NICP
+	url = https://github.com/KarimIbrahim11/NICP.git
+	branch = feature/image2garment
 [submodule "smplx"]
 	path = smplx
-	url = https://github.com/vchoutas/smplx
+	url = https://github.com/KarimIbrahim11/smplx.git

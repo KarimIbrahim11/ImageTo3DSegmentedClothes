@@ -207,6 +207,7 @@ dependencies:
       - fsspec==2024.6.1
       - funcy==2.0
       - future==1.0.0
+      - gdown==5.2.0
       - gitdb==4.0.12
       - gitpython==3.1.44
       - grandalf==0.8
@@ -231,6 +232,8 @@ dependencies:
       - isoduration==20.11.0
       - iterative-telemetry==0.0.10
       - itsdangerous==2.2.0
+      - jax==0.4.30
+      - jaxlib==0.4.30
       - jedi==0.19.2
       - jinja2==3.1.4
       - jmespath==1.0.1
@@ -272,7 +275,9 @@ dependencies:
       - matplotlib==3.9.4
       - matplotlib-inline==0.1.7
       - mdurl==0.1.2
+      - mediapipe==0.10.21
       - mistune==3.1.3
+      - ml-dtypes==0.5.1
       - mpmath==1.3.0
       - multidict==6.6.3
       - narwhals==1.45.0
@@ -286,7 +291,7 @@ dependencies:
       - notebook==6.5.7
       - notebook-shim==0.2.4
       - numba==0.60.0
-      - numpy==1.26.0
+      - numpy==1.23.5
       - nvidia-cublas-cu12==12.1.3.1
       - nvidia-cuda-cupti-cu12==12.1.105
       - nvidia-cuda-nvrtc-cu12==12.1.105
@@ -303,8 +308,10 @@ dependencies:
       - omegaconf==2.3.0
       - onnxruntime==1.19.2
       - open3d==0.15.2
+      - opencv-contrib-python==4.11.0.86
       - opencv-python==4.6.0.66
       - opencv-python-headless==4.11.0.86
+      - opt-einsum==3.4.0
       - ordered-set==4.1.0
       - orjson==3.10.18
       - overrides==7.7.0
@@ -326,7 +333,7 @@ dependencies:
       - prometheus-client==0.22.1
       - prompt-toolkit==3.0.51
       - propcache==0.3.2
-      - protobuf==3.20.3
+      - protobuf==4.25.8
       - psbody-mesh==0.4
       - psutil==6.1.1
       - ptyprocess==0.7.0
@@ -356,6 +363,7 @@ dependencies:
       - pyquaternion==0.9.9
       - pyrender==0.1.45
       - pysmartdl==1.3.4
+      - pysocks==1.7.1
       - python-dateutil==2.9.0.post0
       - python-dotenv==1.1.1
       - python-json-logger==3.3.0
@@ -388,6 +396,7 @@ dependencies:
       - scmrepo==3.3.11
       - semver==3.0.4
       - send2trash==1.8.3
+      - sentencepiece==0.2.0
       - sentry-sdk==2.32.0
       - setproctitle==1.3.6
       - setuptools==80.9.0
@@ -400,6 +409,7 @@ dependencies:
       - smmap==5.0.2
       - smplx==0.1.28
       - sniffio==1.3.1
+      - sounddevice==0.5.2
       - soupsieve==2.7
       - sqltrie==0.11.2
       - stack-data==0.6.3
